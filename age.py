@@ -1,5 +1,5 @@
 name=input('enter your name : ')
-print ("hello, welcome: " name)
+print( "hello welcome:",name )
 
 age=int(input("enter your age: "))
 
