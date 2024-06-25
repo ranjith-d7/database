@@ -1,9 +1,12 @@
+name=input('enter your name : ')
+print ("hello, welcome: " name)
+
 age=int(input("enter your age: "))
+
 print(age)
 
 if age >= 18:
-    print('you are eligible to vote')
+    print(name + "you are eligible to vote")
 else:
-    print('cant vote')
-name=input('enter your name : ')
-print (name)
+    print(name +'you cant vote till you turn 18')
+
